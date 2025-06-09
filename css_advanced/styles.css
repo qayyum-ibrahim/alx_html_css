@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 80%;
+}
+.inner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 70%;
+}
+
+header {
+  position: relative;
+  color: white;
+  padding: 0 auto;
+}
+
+header nav {
+  position: fixed;
+  top: 30px;
+  left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav img {
+  height: 40px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul li {
+  padding: 10px 20px;
+  margin: 0px 10px;
+}
+
+section.hero-section {
+  background-image: url("./images/Object.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 130vh;
+  color: white;
+}
+section.hero-section div.container.hero-top div {
+  padding-top: 15%;
+  padding-bottom: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+section.hero-section div.container.hero-top div h1 {
+  font-size: 105px;
+  font-weight: bold;
+  text-align: center;
+}
+section.hero-section div.container.hero-top div span {
+  padding: 10px 20px;
+  margin: 0px 10px;
+  font-weight: 600;
+}
+section.hero-section div.container.hero-top div button {
+  width: fit-content;
+  display: block;
+  margin-top: 30px;
+  background-color: #c271ff;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+section.hero-section div.container.hero-top div button:hover {
+  background-color: #a045f0;
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+section.hero-section div.container.hero-middle h2 {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+section.hero-section div.container.hero-middle h2 span {
+  color: #c271ff;
+  font-weight: bold;
+}
+section.hero-section div.container.hero-middle div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+section.hero-section div.container.hero-middle div.profile-container {
+  display: block;
+  text-align: center;
+}
+section.hero-section div.container.hero-middle div.profile-container img {
+  border-radius: 60px;
+  width: 150px;
+}
+
+section.testimonial {
+  background-color: #c271ff;
+  padding: 70px 0px;
+}
+section.testimonial div.inner-container {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+section.testimonial div.inner-container div.text-block blockquote {
+  margin-bottom: 20px;
+}
