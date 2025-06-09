@@ -36,3 +36,14 @@ footer {
   padding: 20px 0;
   margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+  .works_on_smartphone main {
+    flex-direction: column;
+  }
+
+  article,
+  aside {
+    flex: auto;
+  }
+}
