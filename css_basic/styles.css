@@ -1,33 +1,82 @@
-/* Make <body> a flex container with vertical stacking */
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
 }
-
-/* Make <main> a flex container with horizontal stacking */
 main {
   display: flex;
   flex-direction: row;
   flex: auto;
 }
 
-/* Make <article> take 2/3 of the space */
 article {
   flex: 2;
   overflow-y: auto;
   padding: 20px;
 }
 
-/* Make <aside> take 1/3 of the space */
 aside {
   flex: 1;
   overflow-y: auto;
   padding: 20px;
 }
 
-/* Optional: Ensure header and footer have some padding and contrast */
-header, footer {
+header,
+footer {
   padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  margin-right: 20px;
+  color: gold;
+}
+
+body {
+  background-color: #f0f8ff;
+}
+
+article {
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f9f9f9;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #222;
+  color: #eee;
+  font-size: 14px;
+}
+
+aside {
+  background-color: #f5f5f5;
+  border-left: 2px solid #ccc;
 }
