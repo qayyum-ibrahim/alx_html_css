@@ -37,7 +37,7 @@ header {
 }
 
 header nav {
-  position: fixed;
+  position: absolute;
   top: 30px;
   left: 10%;
   display: flex;
@@ -67,6 +67,7 @@ section.hero-section {
   height: 130vh;
   color: white;
 }
+
 section.hero-section div.container.hero-top div {
   padding-top: 15%;
   padding-bottom: 7%;
@@ -75,23 +76,26 @@ section.hero-section div.container.hero-top div {
   align-items: center;
   text-align: center;
 }
+
 section.hero-section div.container.hero-top div h1 {
   font-size: 105px;
   font-weight: bold;
   text-align: center;
 }
+
 section.hero-section div.container.hero-top div span {
   padding: 10px 20px;
   margin: 0px 10px;
   font-weight: 600;
 }
+
 section.hero-section div.container.hero-top div button {
   width: fit-content;
   display: block;
   margin-top: 30px;
   background-color: #c271ff;
   color: white;
-  padding: 20px 40px;
+  padding: 15px 40px;
   border-radius: 40px;
   border: none;
   cursor: pointer;
@@ -142,4 +146,129 @@ section.testimonial div.inner-container {
 }
 section.testimonial div.inner-container div.text-block blockquote {
   margin-bottom: 20px;
+}
+
+section.tutorials div.container {
+  margin: 70px auto;
+}
+
+section.tutorials div.container h2 {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 50px;
+}
+section.tutorials div.container h2 span {
+  color: #c271ff;
+  font-weight: 600;
+}
+
+section.tutorials div.container div.outer-tutorials-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+section.tutorials
+  div.container
+  div.outer-tutorials-container
+  div.tutorials-container {
+  display: block;
+  text-align: center;
+}
+
+section.tutorials
+  div.container
+  div.outer-tutorials-container
+  div.tutorials-container
+  p,
+h3 {
+  text-align: left;
+}
+
+section.tutorials
+  div.container
+  div.outer-tutorials-container
+  div.tutorials-container
+  div.name-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+section.tutorials
+  div.container
+  div.outer-tutorials-container
+  div.tutorials-container
+  div.name-container
+  img {
+  width: 40px;
+}
+section.tutorials
+  div.container
+  div.outer-tutorials-container
+  div.tutorials-container
+  div.name-container {
+  color: #c271ff;
+}
+
+section.tutorials
+  div.container
+  div.outer-tutorials-container
+  div.tutorials-container
+  div.outer-rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+  color: #c271ff;
+}
+section.tutorials
+  div.container
+  div.outer-tutorials-container
+  div.tutorials-container
+  div.text-container {
+  padding: 0 10px;
+}
+section.tutorials
+  div.container
+  div.outer-tutorials-container
+  div.tutorials-container
+  div.outer-rating-container
+  div.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+section.tutorials
+  div.container
+  div.outer-tutorials-container
+  div.tutorials-container
+  div.image-container {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+section.tutorials
+  div.container
+  div.outer-tutorials-container
+  div.tutorials-container
+  div.image-container:hover {
+  transform: translateY(-4px) scale(1.02);
+}
+
+section.tutorials
+  div.container
+  div.outer-tutorials-container
+  div.tutorials-container
+  div.image-container
+  img#play-button {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  cursor: pointer;
 }
