@@ -337,3 +337,29 @@ section.faq div.container div.faq-outer-container {
 section.faq div.container div.faq-outer-container div.faq-container {
   width: fit-content;
 }
+
+footer.footer {
+  background-color: #071629;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+footer.footer section.container div.footer-top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer.footer section.container div.footer-top-section div.social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer.footer section.container p {
+  margin-top: 50px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+}
