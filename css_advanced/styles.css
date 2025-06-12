@@ -272,3 +272,42 @@ section.tutorials
   left: 35%;
   cursor: pointer;
 }
+
+section.membership {
+  background-color: #071629;
+  padding: 70px 0px;
+  color: white;
+  font-weight: 200;
+}
+section.membership div.container h2 {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 50px;
+}
+section.membership div.container h2 span {
+  color: #c271ff;
+  font-weight: 600;
+}
+
+section.membership div.container div.membership-outer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+section.membership
+  div.container
+  div.membership-outer-container
+  div.membership-container {
+  text-align: center;
+}
+section.membership
+  div.container
+  div.membership-outer-container
+  div.membership-container
+  h3 {
+  text-align: center;
+  margin: 10px 0px;
+}
